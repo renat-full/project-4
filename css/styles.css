@@ -19,6 +19,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 
 .team-title {
@@ -74,6 +75,8 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     
+    
+    
 }
 
 .studio {
@@ -88,6 +91,8 @@ body {
 
 .footer-studio{
     color: #f4f4fd;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-web{
@@ -139,7 +144,10 @@ body {
 .header-link {
     color: #2e2f42;
     font-weight: 500;
+    padding: 24px 0 24px
 }
+
+
 
 
 
@@ -168,6 +176,7 @@ body {
 }
 
 .first-section {
+    padding: 188px 0 188px;
     background-color: #2e2f42;
 }
 
@@ -184,6 +193,11 @@ body {
     color: #fff;
     background-color: #4D5AE5;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .button-order:hover,
@@ -210,6 +224,7 @@ body {
 
 }
 .advantage-subtitle{
+    margin-bottom: 8px;
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
@@ -235,6 +250,7 @@ body {
 .footer-title{
     background-color: #2e2f42;
     color:#4d5ae5;
+    padding: 100px 0 100px
 }
 
 a {
@@ -266,7 +282,7 @@ ul {
  .container {
      width: 1158px;
      margin: 0 auto;
-     padding: 0 15px;
+    padding: 0 15px 0 15px
  }
  .header{
     border-bottom: 1px solid #e7e9fc;
@@ -282,6 +298,7 @@ ul {
     display: flex;
         align-items: center;
         gap: 40px;
+        margin-right: 76px
  }
  .nav-list {
      display: flex;
@@ -312,21 +329,52 @@ ul {
      padding: 120px 0;
      
  }
- .portfolio-list-item{
-            border-bottom: 1px solid #e7e9fc;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
+ .portfolio-list-item {
+     border-bottom: 1px solid #e7e9fc;
+     padding-bottom: 20px;
+     margin-bottom: 20px;
  }
- .section>*:first-child {
+
+ .section :first-child {
      margin-top: 0;
  }
 
- .section>*:last-child {
+ .section :last-child {
      margin-bottom: 0;
  }
+
  h2 {
      margin-bottom: 24px;
  }
+
  p {
      margin-top: 24px;
  }
+
+ .info-list {
+     display: flex;
+     gap: 24px;
+ }
+
+ .info-item:first-child {
+     width: calc((100% - 72px) / 4);
+ }
+
+ .info-item {
+     margin-right: 24px;
+ }
+
+ .info-item:last-child {
+     margin-right: 0;
+ }
+ 
+.visually-hidden{
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        overflow: hidden;
+}   
