@@ -1,0 +1,240 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+
+}
+
+.main-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.team-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team{
+    background-color:#F4F4FD;
+}
+
+.portfolio-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+ .development-title{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+ }
+
+ .job-list{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+ }
+
+.webstudio {
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    
+}
+
+.studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.footer-studio{
+    color: #f4f4fd;
+}
+
+.footer-web{
+    color:#4d5ae5;
+}
+
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.webstudio :hover,
+.webstudio :focus {
+    color: #404bbf;
+}
+
+.nav-list li a {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.nav-list li a:hover {
+    color: #404bbf;
+}
+
+.nav-list li a:focus {
+    color: #404bbf;
+}
+
+.contact-list li a {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-list li a:hover {
+    color: #404bbf;
+}
+
+.contact-list li a:focus {
+    color: #404bbf;
+}
+
+.header-link {
+    color: #2e2f42;
+    font-weight: 500;
+}
+
+
+
+
+
+.contacts-list {
+    color: #434455;
+    text-decoration: none;
+}
+
+.contacts-list:hover {
+    color: #404bbf;
+}
+
+.contacts-list {
+    color: #434455;
+    text-decoration: none;
+}
+
+.contacts-list:hover {
+    color: #404bbf;
+}
+
+.address-info {
+    font-style: normal;
+}
+
+.first-section {
+    background-color: #2e2f42;
+}
+
+.first-section h1 {
+    line-height: 1.07;
+}
+
+.button-order {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.button-order:hover,
+.button-order:focus {
+    background-color: #404BBF;
+}
+
+.advantage-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.advantages-text {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+
+}
+.advantage-subtitle{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.team-list-item{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        background-color: #FFFFFF;
+}
+.team-item{
+    background-color: #FFFFFF;
+}
+
+.footer-title{
+    background-color: #2e2f42;
+    color:#4d5ae5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
