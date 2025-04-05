@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -238,3 +244,89 @@ a {
 ul {
     list-style: none;
 }
+ h1,h2,h3,h4,h5,h6,
+ p {
+     margin: 0;
+    padding: 0;
+ }
+
+ ul,
+ ol {
+     margin: 0;
+     padding-left: 0;
+     list-style: none;
+ }
+
+ img {
+     display: block;
+     max-width: 100%;
+     height: auto;
+ }
+
+ .container {
+     width: 1158px;
+     margin: 0 auto;
+     padding: 0 15px;
+ }
+ .header{
+    border-bottom: 1px solid #e7e9fc;
+ }
+ .header-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 24px 0;
+     
+ }
+ .header-nav{
+    display: flex;
+        align-items: center;
+        gap: 40px;
+ }
+ .nav-list {
+     display: flex;
+     gap: 40px;
+ }
+
+ .contact-list {
+     display: flex;
+     gap: 40px;
+ }
+ .first-section,
+ .second-section,
+ .team,
+ .portfolio {
+     margin: 0;
+     
+ }
+ .first-section h1, 
+ .second-section h2, 
+ .team-title, 
+ .portfolio-title, 
+ .first-section p, 
+ .second-section p {
+     margin: 0;
+    
+ }
+ .section {
+     padding: 120px 0;
+     
+ }
+ .portfolio-list-item{
+            border-bottom: 1px solid #e7e9fc;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+ }
+ .section>*:first-child {
+     margin-top: 0;
+ }
+
+ .section>*:last-child {
+     margin-bottom: 0;
+ }
+ h2 {
+     margin-bottom: 24px;
+ }
+ p {
+     margin-top: 24px;
+ }
