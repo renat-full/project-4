@@ -31,9 +31,10 @@ body {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
-.team-title+p {
+.team-title, p{
     margin-top: 72px;
 }
 
