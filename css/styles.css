@@ -31,6 +31,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team{
@@ -214,6 +215,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
 }
 
 .advantages-text {
@@ -244,9 +246,15 @@ body {
         text-align: center;
         color: #2e2f42;
         background-color: #FFFFFF;
+        flex-basis: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
 }
 .team-item{
     background-color: #FFFFFF;
+    display: flex;
+        gap: 24px;
+        padding: 0;
+        list-style: none;
 }
 
 .footer-title{
@@ -284,7 +292,7 @@ ul {
  .container {
      width: 1158px;
      margin: 0 auto;
-    padding: 0 15px 0 15px
+    padding:15px 15px;
  }
  .header{
     border-bottom: 1px solid #e7e9fc;
@@ -332,6 +340,8 @@ ul {
  }
  .section {
      padding: 120px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
      
  }
  .portfolio-list-item {
@@ -366,7 +376,7 @@ ul {
  }
 
  .info-item {
-     margin-right: 24px;
+     flex-basis: calc((100% - 72px) / 4);
  }
 
  .info-item:last-child {
@@ -383,3 +393,8 @@ ul {
         clip: rect(0, 0, 0, 0);
         overflow: hidden;
 }   
+.advantage-box{
+    text-align: center;
+    margin-bottom: 8px;
+    
+}
