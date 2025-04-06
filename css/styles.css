@@ -266,16 +266,7 @@ ul {
     list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-    padding: 0;
-}
+
 
 ul,
 ol {
@@ -298,7 +289,6 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 0 15px;
 }
 
 .header-container {
@@ -323,22 +313,6 @@ img {
 .contact-list {
     display: flex;
     gap: 40px;
-}
-
-.first-section,
-.second-section,
-.team,
-.portfolio {
-    margin: 0;
-}
-
-.first-section h1,
-.second-section h2,
-.team-title,
-.portfolio-title,
-.first-section p,
-.second-section p {
-    margin: 0;
 }
 
 .section {
@@ -366,13 +340,7 @@ img {
     margin-bottom: 0;
 }
 
-h2 {
-    margin-bottom: 24px;
-}
 
-p {
-    margin-top: 24px;
-}
 
 .info-list {
     display: flex;
