@@ -31,11 +31,11 @@ body {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
-    margin-bottom: 8px;
+    margin-top: 72px;
 }
 
-.team-title, p{
-    margin-top: 72px;
+p {
+    margin-top: 24px;
 }
 
 .team {
@@ -114,7 +114,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-bottom: 16px;
+    
 }
 
 .webstudio:hover,
@@ -228,6 +228,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team-list-item {
@@ -262,12 +263,6 @@ body {
 a {
     text-decoration: none;
 }
-
-ul {
-    list-style: none;
-}
-
-
 
 ul,
 ol {
