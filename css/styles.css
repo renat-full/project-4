@@ -19,6 +19,9 @@ body {
     text-align: center;
     color: #fff;
     max-width: 496px;
+    margin-bottom: 48px;
+    margin-right: auto;
+        margin-left: auto;
 }
 
 .team-title {
@@ -31,7 +34,7 @@ body {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
-    margin-top: 72px;
+    
 }
 
 p {
@@ -93,7 +96,6 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-    margin-right: 76px;
 }
 
  .footer-title .webstudio{
@@ -119,6 +121,7 @@ p {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
     
 }
 
@@ -183,6 +186,7 @@ p {
 
 .first-section h1 {
     line-height: 1.07;
+    
 }
 
 .button-order {
@@ -199,6 +203,8 @@ p {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-right: auto;
+        margin-left: auto;
 }
 
 .button-order:hover,
@@ -245,11 +251,8 @@ p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .team-item {
@@ -303,8 +306,7 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
-    gap: 40px;
-    margin-right: 76px;
+    margin-right: auto;
 }
 
 .nav-list {
@@ -328,9 +330,6 @@ img {
 }
 
 .portfolio-list-item {
-    border-bottom: 1px solid #e7e9fc;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
     width: calc((100% - 48px) / 3);
 }
 
@@ -376,7 +375,6 @@ img {
 
 .advantage-box {
     text-align: center;
-    margin-bottom: 8px;
     padding: 32px 0;
 }
 
@@ -390,8 +388,7 @@ img {
 .development-box {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
+    border-top: none; 
 }
 h1,
 h2,
