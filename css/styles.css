@@ -253,10 +253,10 @@ p {
     color: #2e2f42;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
 }
 
 .team-item {
-    background-color: #FFFFFF;
     display: flex;
     gap: 24px;
     padding: 0;
