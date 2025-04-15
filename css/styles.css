@@ -271,6 +271,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-item {
@@ -494,7 +495,7 @@ p {
     fill: #f4f4fd;
 }
 
-.first-item{
+.general-item{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .image-description{
@@ -523,8 +524,9 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 }
 
 .footer-list{
-    display: flex;
+    display: flex; 
     gap: 16px;
+
 }
 .footer-media{
     width: 40px;
@@ -540,10 +542,12 @@ align-items: center;
 justify-content: center;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-links :hover:focus{
-    background-color: #31d0aa;
 
+.footer-links:hover,
+.footer-links:focus {
+    background-color: #31d0aa;
 }
+
 .social-text{
     font-weight: 500;
     font-size: 16px;
