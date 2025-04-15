@@ -313,7 +313,6 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
     align-items: baseline;
 
 }
@@ -541,7 +540,7 @@ align-items: center;
 justify-content: center;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-links :hover{
+.footer-links :hover:focus{
     background-color: #31d0aa;
 
 }
